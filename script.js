@@ -21,7 +21,7 @@ function submitHandler() {
     if (initial > current) {
       var loss = (initial - current) * quantity;
       var lossPercentage = (loss / initial) * 100;
-      window.alert(`Hey, the loss is ${loss} and the percent is ${lossPercentage}%`)
+      // window.alert(`Hey, the loss is ${loss} and the percent is ${lossPercentage}%`)
   
       showOutput(
         `Hey, the loss is ${loss} and the percent is ${lossPercentage}%`
